@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main page</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style/mainStyle.css">
+	<link rel="stylesheet" href="style/mobileStyle.css">
+	<script src="https://kit.fontawesome.com/7929af6995.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<header class="header">
+		<h1 class="title">Spending Calculator</h1>
+		<div><span style="color: white;">Result:</span><span class="result" style="color: white;"></span></div>
+		<a class="link github_link" href="">GitHub</a>
+	</header>
+	<!-- MAIN CONTENT -->
+	<main class="main">
+
+		<ul class="main_list" id="main_list">
+			<li class="list_item changeble">
+				<div class="li_wrap">
+					<div class="input_wrap">
+						<Label>name:</Label><input class="input name_input" type="text">
+					</div>
+					<div class="input_wrap">
+						<Label>price:</Label><input class="input price_input" type="number">
+					</div>
+
+				</div>
+
+				<div class="btn_wrap">
+					<div class="count_wrap" id="count_wrap">
+						<label for=""><i class="fa-solid fa-xmark"></i></label>
+						<input type="number" name="" id="" class="count" value="1" min="1">
+					</div>
+					<button class="btn save_change"><i class="fa-solid fa-check"></i></button>
+					<button class="btn change unviseble"><i class="fa-solid fa-pen"></i></button>
+					<button class="btn delte"><i class="fa-solid fa-xmark"></i></button>
+				</div>
+			</li>
+		</ul>
+		<button type="button" class="btn add_element"><i class="fa-solid fa-plus"></i></button>
+	</main>
+
+
+	<script src="script.js"></script>
+	<script src="scroll.js"></script>
+</body>
+
+</html>
