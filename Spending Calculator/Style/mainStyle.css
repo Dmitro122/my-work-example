@@ -3,7 +3,7 @@
 
 :root {
 	--maion-bc-color: aliceblue;
-	--main-color: rgb(255, 156, 35);
+	--main-color: rgb(106, 205, 0);
 	--list-bc-color: rgb(208, 208, 208);
 	--white-color: white;
 	--main-text-color: rgb(36, 36, 36);
@@ -49,6 +49,7 @@ body {
 
 .btn {
 	transition: 0.2s;
+	border-radius: 5px;
 }
 
 .wrap {
@@ -120,13 +121,11 @@ body {
 }
 
 .list_item {
-
 	display: flex;
 	justify-content: space-between;
 	justify-items: center;
 	border-radius: 10px;
 	width: 100%;
-	height: 60px;
 	margin: 10px;
 	padding: 20px;
 }
@@ -138,8 +137,12 @@ body {
 }
 
 .li_wrap {
+	padding: 10px;
+	color: white;
+	background-color: var(--main-color);
 	display: flex;
 	align-items: center;
+	border-radius: 10px;
 }
 
 .input_wrap {
@@ -147,6 +150,8 @@ body {
 	align-items: center;
 	margin-left: 10px;
 }
+
+
 
 .btn_wrap {
 	display: flex;
@@ -157,6 +162,9 @@ body {
 	width: 30px;
 	height: 30px;
 	margin-left: 10px;
+	color: white;
+	background-color: var(--main-color);
+	border: none;
 	font-size: 20px;
 	cursor: pointer;
 }
@@ -178,6 +186,10 @@ body {
 }
 
 .add_element {
+	color: white;
+	background-color: var(--main-color);
+	border: none;
+	border-radius: 10px;
 	width: 50px;
 	height: 50px;
 	font-size: 30px;
@@ -188,7 +200,9 @@ body {
 	height: 23px;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid black;
+	background-color: var(--main-color);
+	color: white;
+	border-bottom: 2px solid rgb(255, 255, 255);
 	font-family: var(--main-font);
 	font-size: 16px;
 

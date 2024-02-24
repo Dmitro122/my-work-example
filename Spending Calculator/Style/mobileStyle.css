@@ -27,7 +27,7 @@
 	.main {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 	}
 
 	.main_list {
@@ -36,5 +36,9 @@
 
 	.content {
 		padding-top: 50px;
+	}
+
+	.input_wrap {
+		margin-bottom: 10px;
 	}
 }
